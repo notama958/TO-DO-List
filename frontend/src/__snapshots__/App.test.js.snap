@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redux component tests Render Dashboard component 1`] = `
+Array [
+  <header
+    className="cmds"
+    id="title"
+  >
+    <label
+      className="large text-primary post-form-header"
+    >
+      NOTE ME
+    </label>
+    <hr />
+    <button
+      className="btn btn--green"
+      onClick={[Function]}
+      value="add"
+    >
+      ADD
+       
+    </button>
+    <button
+      className="btn btn--green"
+      onClick={[Function]}
+      value="add"
+    >
+      ADD RANDOM
+       
+    </button>
+    <br />
+    <button
+      className="btn btn--danger"
+      onClick={[Function]}
+      value="load"
+    >
+       
+      GET RANDOM
+       
+    </button>
+    <div>
+      <button
+        className="btn btn--danger"
+        onClick={[Function]}
+        value="get"
+      >
+        GET BY ID
+         
+      </button>
+      <input
+        name="id"
+        type="text"
+      />
+    </div>
+  </header>,
+  <div
+    id="backdrop"
+  />,
+  " ",
+  " ",
+  <main>
+    <section
+      className="card"
+      id="id-text"
+    >
+      <p>
+        LIST ID shows here!
+      </p>
+    </section>
+    <section
+      className="card"
+      id="entry-text"
+    >
+      <p>
+        List CONTENT shows here!
+      </p>
+    </section>
+  </main>,
+]
+`;
+
+exports[`Redux component tests Render show Id 1`] = `
+<li
+  className=" fas fa-check-circle  "
+>
+  12121212
+</li>
+`;

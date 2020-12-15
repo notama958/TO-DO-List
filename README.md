@@ -43,7 +43,9 @@ To-do list is a light-weight notebook to record daily tasks
      - chai
      - mocha
      - supertest
-4. Demo
+4. Deploy
+   - ...
+5. Demo
    - please kindly check demo folder
      ![demo-gif](/demo/todo-demo.mp4)
 

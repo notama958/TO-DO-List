@@ -1,11 +1,10 @@
 const mongoose = require('mongoose');
-// const config = require('config');
-const dotenv = require('dotenv');
-dotenv.config();
-// const db = config.get('MongoURI');
+const config = require('config');
+// const dotenv = require('dotenv');
+// dotenv.config();
+const db = config.get('MongoURI');
 // const db = process.env.MongoURI;
-const db =
-  'mongodb+srv://admin:TonypasswOrd35147@mangadb.vbmiu.mongodb.net/todolist?retryWrites=true&w=majority';
+
 const connectDB = async () => {
   try {
     await mongoose.connect(db, {

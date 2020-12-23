@@ -4,7 +4,7 @@
   "description": "To do list",
   "main": "index.js",
   "scripts": {
-    "start":"concurrently \"npm run dev --prefix ./backend\"",
+    "start": "concurrently \"npm run dev --prefix ./backend\"",
     "dev": "concurrently \"npm start --prefix ./frontend/\" \"npm run dev --prefix ./backend\" ",
     "heroku": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
@@ -20,6 +20,18 @@
   "homepage": "https://github.com/notaman958/TO-DO-List#readme",
   "dependencies": {
     "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "faker": "^5.1.0",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
   }
 }

@@ -1,2 +1,4 @@
 /landing_pages
 config/default.json
+demo/*
+node_modules/

@@ -72,5 +72,3 @@ typings/
 # Serverless directories
 .serverless
 config/default.json
-config/production.json
-config/db

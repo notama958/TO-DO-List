@@ -44,7 +44,7 @@ To-do list is a light-weight notebook to record daily tasks
      - mocha
      - supertest
 4. Deploy
-   - ...
+   - heroku
 5. Demo
    - please kindly check demo folder
      ![demo-gif](/demo/todo-demo.mp4)
@@ -52,7 +52,7 @@ To-do list is a light-weight notebook to record daily tasks
 ## Instructions
 
 - install required node modules
-- docker compose-up -d to run containers / seperate running _npm run dev_ in _backend_ and _npm run start_ in _frontend_
+- docker compose-up -d to run containers || seperate running _npm run dev_ in _backend_ and _npm run start_ in _frontend_
 - testing:
   - backend: npm test + npm run test:unit
   - frontend: npm test

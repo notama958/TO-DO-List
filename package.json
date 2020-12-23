@@ -4,8 +4,8 @@
   "description": "To do list",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start --prefix ./backend && npm run dev --prefix ./backend",   
-    "frontend":"npm start --prefix  ./frontend",
+    "start": "npm run start --prefix ./backend && npm run dev --prefix ./backend",
+    "frontend": "npm start --prefix  ./frontend",
     "dev": "concurrently \"npm run dev --prefix ./backend\" \"npm run frontend\"  ",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ./frontend && npm run build --prefix ./frontend"
   },
@@ -27,7 +27,8 @@
     "express": "^4.17.1",
     "express-validator": "^6.8.1",
     "faker": "^5.1.0",
-    "mongoose": "^5.11.8"
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",

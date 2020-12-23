@@ -4,7 +4,7 @@
   "description": "To do list",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run dev --prefix ./backend\"",
+    "start": "npm install --prefix backend && npm run dev --prefix backend",
     "dev": "concurrently \"npm start --prefix ./frontend/\" \"npm run dev --prefix ./backend\" ",
     "heroku": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },

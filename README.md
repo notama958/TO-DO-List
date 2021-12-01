@@ -46,8 +46,8 @@ To-do list is a light-weight notebook to record daily tasks
 4. Deploy
    - heroku
 5. Demo
-   - please kindly check demo folder
-     ![demo-gif](https://drive.google.com/file/d/1az8P3UHRI5-2oDtzs6xftWXwD3xnA9ob/view?usp=sharing)
+   - Demo video 
+     [ggdrive url](https://drive.google.com/file/d/1az8P3UHRI5-2oDtzs6xftWXwD3xnA9ob/view?usp=sharing)
 
 ## Instructions
 
